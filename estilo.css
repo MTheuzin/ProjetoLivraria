@@ -1,0 +1,103 @@
+/*DOCUMENTO CSS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ede9e4;
+    color: #000000;
+    background-image: url(Images/fundo\ 2.jpg);
+   
+}
+
+header {
+    background-color: #1d0808;
+    height: 180px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-image: url(Images/fundo\ 2.jpg);
+    font-family: sans-serif;
+    color: white;
+}
+
+header figure {
+    width: 100px;
+    height: 100px;
+    background-color: #150707;
+    margin: 0;
+    padding: 0;
+
+}
+main {
+    min-height: 900px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #c0c0c0;
+
+}
+
+.boxlivro {
+    width: 550px;
+    height: 250px;
+    background-color: #76a39f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 50px;
+    display: flex;
+}
+
+.boxlivro:hover {
+    box-shadow: 6px 6px 10px 0;
+    padding: 0;
+}
+
+.boxlivro figure {
+    width: 140px;
+    height: 170px;
+    background-color: #e6e6e6;
+    margin: 0 70px 0 0;
+    padding: 0;
+    border: 1 px solid black;
+}
+
+.boxlivro p{
+
+}
+
+.boxlivro span {
+    font-size: 30 px;
+    font-weight: 900;
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+
+footer {
+    background-color: #000000;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer figure {
+    width: 70px;
+    height: 50px;
+    background-color: #696969;
+    margin: 0 30px 0 50px;
+    padding: 0;
+}
+
+footer p {
+    font-weight: 800;
+    font-size: 20px;
+    /*margin: 10px 0 0 0 ;*/
+    color: #ede9e4;
+}
